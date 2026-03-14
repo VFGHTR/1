@@ -1,0 +1,694 @@
+{
+    "$__mpe_config_新建Pipeline4": {
+        "$__mpe_code": {
+            "filePath": "C:\\Users\\lenovo\\Documents\\MaaPipeline\\新建Pipeline4.json",
+            "filename": "新建Pipeline4",
+            "isModifiedExternally": false,
+            "lastSyncTime": 1773485539585,
+            "prefix": "",
+            "savedViewport": {
+                "x": 654,
+                "y": -59,
+                "zoom": 0.76
+            },
+            "version": "v1.2.3"
+        }
+    },
+    "$__mpe_group_1_0组_新建Pipeline4": {
+        "$__mpe_code": {
+            "childrenLabels": [
+                "1_1_0",
+                "1_2_0",
+                "1_3_0",
+                "1_4_0",
+                "1_5_0"
+            ],
+            "color": "blue",
+            "height": 300,
+            "position": {
+                "x": 535,
+                "y": 587
+            },
+            "width": 400
+        }
+    },
+    "$__mpe_group_1_1组_新建Pipeline4": {
+        "$__mpe_code": {
+            "childrenLabels": [
+                "1_1_1",
+                "1_2_1",
+                "1_3_1",
+                "1_4_1",
+                "1_5_1"
+            ],
+            "color": "blue",
+            "height": 300,
+            "position": {
+                "x": -399,
+                "y": 404
+            },
+            "width": 400
+        }
+    },
+    "1_0": {
+        "$__mpe_code": {
+            "position": {
+                "x": 768,
+                "y": 233
+            }
+        },
+        "action": {
+            "param": {
+                "key": [
+                    48
+                ]
+            },
+            "type": "ClickKey"
+        },
+        "on_error": [
+            "1_1",
+            "1_2",
+            "1_3",
+            "1_4",
+            "1_5",
+            "1_6",
+            "1_7",
+            "1_8",
+            "1_9"
+        ],
+        "recognition": {
+            "param": {
+                "all_of": [
+                    "1_1_0",
+                    "1_2_0",
+                    "1_3_0",
+                    "1_4_0",
+                    "1_5_0"
+                ]
+            },
+            "type": "And"
+        },
+        "timeout": 0
+    },
+    "1_1": {
+        "$__mpe_code": {
+            "position": {
+                "x": 1079,
+                "y": 198
+            }
+        },
+        "action": {
+            "param": {
+                "key": [
+                    49
+                ]
+            },
+            "type": "ClickKey"
+        },
+        "recognition": {
+            "param": {
+                "all_of": [
+                    "1_1_1",
+                    "1_2_0",
+                    "1_3_0",
+                    "1_4_0",
+                    "1_5_0"
+                ]
+            },
+            "type": "And"
+        },
+        "timeout": 0
+    },
+    "1_1_0": {
+        "$__mpe_code": {
+            "position": {
+                "x": 7,
+                "y": 30
+            }
+        },
+        "recognition": {
+            "param": {
+                "lower": [
+                    [
+                        255,
+                        255,
+                        255
+                    ]
+                ],
+                "roi": [
+                    314,
+                    180,
+                    6,
+                    5
+                ],
+                "upper": [
+                    [
+                        255,
+                        255,
+                        255
+                    ]
+                ]
+            },
+            "type": "ColorMatch"
+        },
+        "timeout": 0
+    },
+    "1_1_1": {
+        "$__mpe_code": {
+            "position": {
+                "x": 7,
+                "y": 31
+            }
+        },
+        "recognition": {
+            "param": {
+                "lower": [
+                    [
+                        0,
+                        0,
+                        0
+                    ]
+                ],
+                "roi": [
+                    317,
+                    182,
+                    1,
+                    1
+                ],
+                "upper": [
+                    [
+                        100,
+                        100,
+                        100
+                    ]
+                ]
+            },
+            "type": "ColorMatch"
+        },
+        "timeout": 0
+    },
+    "1_2": {
+        "$__mpe_code": {
+            "position": {
+                "x": 1136,
+                "y": 349
+            }
+        },
+        "action": {
+            "param": {
+                "key": [
+                    50
+                ]
+            },
+            "type": "ClickKey"
+        },
+        "recognition": {
+            "param": {
+                "all_of": [
+                    "1_1_1",
+                    "1_2_1",
+                    "1_3_0",
+                    "1_4_0",
+                    "1_5_0"
+                ]
+            },
+            "type": "And"
+        },
+        "timeout": 0
+    },
+    "1_2_0": {
+        "$__mpe_code": {
+            "position": {
+                "x": 109,
+                "y": 35
+            }
+        },
+        "recognition": {
+            "param": {
+                "lower": [
+                    [
+                        255,
+                        255,
+                        255
+                    ]
+                ],
+                "roi": [
+                    352,
+                    180,
+                    5,
+                    5
+                ],
+                "upper": [
+                    [
+                        255,
+                        255,
+                        255
+                    ]
+                ]
+            },
+            "type": "ColorMatch"
+        },
+        "timeout": 0
+    },
+    "1_2_1": {
+        "$__mpe_code": {
+            "position": {
+                "x": 97,
+                "y": 31
+            }
+        },
+        "recognition": {
+            "param": {
+                "lower": [
+                    [
+                        0,
+                        0,
+                        0
+                    ]
+                ],
+                "roi": [
+                    355,
+                    182,
+                    1,
+                    1
+                ],
+                "upper": [
+                    [
+                        100,
+                        100,
+                        100
+                    ]
+                ]
+            },
+            "type": "ColorMatch"
+        },
+        "timeout": 0
+    },
+    "1_3": {
+        "$__mpe_code": {
+            "position": {
+                "x": 1380,
+                "y": 226
+            }
+        },
+        "action": {
+            "param": {
+                "key": [
+                    51
+                ]
+            },
+            "type": "ClickKey"
+        },
+        "recognition": {
+            "param": {
+                "all_of": [
+                    "1_1_1",
+                    "1_2_1",
+                    "1_3_1",
+                    "1_4_0",
+                    "1_5_0"
+                ]
+            },
+            "type": "And"
+        },
+        "timeout": 0
+    },
+    "1_3_0": {
+        "$__mpe_code": {
+            "position": {
+                "x": 205,
+                "y": 45
+            }
+        },
+        "recognition": {
+            "param": {
+                "lower": [
+                    [
+                        255,
+                        255,
+                        255
+                    ]
+                ],
+                "roi": [
+                    390,
+                    180,
+                    5,
+                    5
+                ],
+                "upper": [
+                    [
+                        255,
+                        255,
+                        255
+                    ]
+                ]
+            },
+            "type": "ColorMatch"
+        },
+        "timeout": 0
+    },
+    "1_3_1": {
+        "$__mpe_code": {
+            "position": {
+                "x": 185,
+                "y": 36
+            }
+        },
+        "recognition": {
+            "param": {
+                "lower": [
+                    [
+                        0,
+                        0,
+                        0
+                    ]
+                ],
+                "roi": [
+                    393,
+                    182,
+                    1,
+                    1
+                ],
+                "upper": [
+                    [
+                        100,
+                        100,
+                        100
+                    ]
+                ]
+            },
+            "type": "ColorMatch"
+        },
+        "timeout": 0
+    },
+    "1_4": {
+        "$__mpe_code": {
+            "position": {
+                "x": 1431,
+                "y": 450
+            }
+        },
+        "action": {
+            "param": {
+                "key": [
+                    52
+                ]
+            },
+            "type": "ClickKey"
+        },
+        "recognition": {
+            "param": {
+                "all_of": [
+                    "1_1_1",
+                    "1_2_1",
+                    "1_3_1",
+                    "1_4_1",
+                    "1_5_0"
+                ]
+            },
+            "type": "And"
+        },
+        "timeout": 0
+    },
+    "1_4_0": {
+        "$__mpe_code": {
+            "position": {
+                "x": 313,
+                "y": 36
+            }
+        },
+        "recognition": {
+            "param": {
+                "lower": [
+                    [
+                        255,
+                        255,
+                        255
+                    ]
+                ],
+                "roi": [
+                    428,
+                    177,
+                    5,
+                    7
+                ],
+                "upper": [
+                    [
+                        255,
+                        255,
+                        255
+                    ]
+                ]
+            },
+            "type": "ColorMatch"
+        },
+        "timeout": 0
+    },
+    "1_4_1": {
+        "$__mpe_code": {
+            "position": {
+                "x": 273,
+                "y": 34
+            }
+        },
+        "recognition": {
+            "param": {
+                "lower": [
+                    [
+                        0,
+                        0,
+                        0
+                    ]
+                ],
+                "roi": [
+                    432,
+                    183,
+                    1,
+                    1
+                ],
+                "upper": [
+                    [
+                        100,
+                        100,
+                        100
+                    ]
+                ]
+            },
+            "type": "ColorMatch"
+        },
+        "timeout": 0
+    },
+    "1_5": {
+        "$__mpe_code": {
+            "position": {
+                "x": 1325,
+                "y": 533
+            }
+        },
+        "action": {
+            "param": {
+                "key": [
+                    53
+                ]
+            },
+            "type": "ClickKey"
+        },
+        "recognition": {
+            "param": {
+                "all_of": [
+                    "1_1_1",
+                    "1_2_1",
+                    "1_3_1",
+                    "1_4_1",
+                    "1_5_1"
+                ]
+            },
+            "type": "And"
+        },
+        "timeout": 0
+    },
+    "1_5_0": {
+        "$__mpe_code": {
+            "position": {
+                "x": 1,
+                "y": 125
+            }
+        },
+        "recognition": {
+            "param": {
+                "lower": [
+                    [
+                        255,
+                        255,
+                        255
+                    ]
+                ],
+                "roi": [
+                    467,
+                    177,
+                    6,
+                    7
+                ],
+                "upper": [
+                    [
+                        255,
+                        255,
+                        255
+                    ]
+                ]
+            },
+            "type": "ColorMatch"
+        },
+        "timeout": 0
+    },
+    "1_5_1": {
+        "$__mpe_code": {
+            "position": {
+                "x": 0,
+                "y": 144
+            }
+        },
+        "recognition": {
+            "param": {
+                "lower": [
+                    [
+                        0,
+                        0,
+                        0
+                    ]
+                ],
+                "roi": [
+                    470,
+                    183,
+                    1,
+                    1
+                ],
+                "upper": [
+                    [
+                        100,
+                        100,
+                        100
+                    ]
+                ]
+            },
+            "type": "ColorMatch"
+        },
+        "timeout": 0
+    },
+    "1_6": {
+        "$__mpe_code": {
+            "position": {
+                "x": 1200,
+                "y": 562
+            }
+        },
+        "action": {
+            "param": {
+                "key": [
+                    54
+                ]
+            },
+            "type": "ClickKey"
+        },
+        "recognition": {
+            "param": {
+                "all_of": [
+                    "1_1_0",
+                    "1_2_1",
+                    "1_3_1",
+                    "1_4_1",
+                    "1_5_1"
+                ]
+            },
+            "type": "And"
+        },
+        "timeout": 0
+    },
+    "1_7": {
+        "$__mpe_code": {
+            "position": {
+                "x": 1063,
+                "y": 595
+            }
+        },
+        "action": {
+            "param": {
+                "key": [
+                    55
+                ]
+            },
+            "type": "ClickKey"
+        },
+        "recognition": {
+            "param": {
+                "all_of": [
+                    "1_1_0",
+                    "1_2_0",
+                    "1_3_1",
+                    "1_4_1",
+                    "1_5_1"
+                ]
+            },
+            "type": "And"
+        },
+        "timeout": 0
+    },
+    "1_8": {
+        "$__mpe_code": {
+            "position": {
+                "x": 996,
+                "y": 477
+            }
+        },
+        "action": {
+            "param": {
+                "key": [
+                    56
+                ]
+            },
+            "type": "ClickKey"
+        },
+        "recognition": {
+            "param": {
+                "all_of": [
+                    "1_1_0",
+                    "1_2_0",
+                    "1_3_0",
+                    "1_4_1",
+                    "1_5_1"
+                ]
+            },
+            "type": "And"
+        },
+        "timeout": 0
+    },
+    "1_9": {
+        "$__mpe_code": {
+            "position": {
+                "x": 947,
+                "y": 371
+            }
+        },
+        "action": {
+            "param": {
+                "key": [
+                    57
+                ]
+            },
+            "type": "ClickKey"
+        },
+        "recognition": {
+            "param": {
+                "all_of": [
+                    "1_1_0",
+                    "1_2_0",
+                    "1_3_0",
+                    "1_4_0",
+                    "1_5_1"
+                ]
+            },
+            "type": "And"
+        },
+        "timeout": 0
+    }
+}
